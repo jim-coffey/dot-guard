@@ -1,0 +1,35 @@
+{
+  "name": "dot-guard",
+  "version": "1.0.0",
+  "description": "Guard against dot property undefined errors",
+  "author": "Jim Coffey",
+  "license": "MIT",
+  "keywords": [
+    "obj",
+    "object",
+    "prop",
+    "property",
+    "dot",
+    "path",
+    "get",
+    "set",
+    "delete",
+    "del",
+    "access",
+    "notation",
+    "dotty"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "benchmark": "matcha benchmark.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "matcha": "^0.7.0",
+    "mocha": "^5.0.5"
+  }
+}
